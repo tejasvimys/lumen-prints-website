@@ -1,0 +1,29 @@
+# Lumen Prints
+
+Lumen Prints is a custom printing company providing high-quality print production for apparel, promotional products, paper printables, and branded merchandise.
+
+## Core Services
+- DTF printing
+- Custom T-shirt and hoodie printing
+- Custom caps and hats printing
+- Mug and tumbler printing
+- Mouse pad and keychain printing
+- Corporate merchandise and giveaway kits
+- Custom calendars and photo sets
+- Decorative and festive print products
+- Posters, flyers, brochures, and stickers
+
+## Key Pages
+- Home: https://lumenprints.example/index.html
+- Services: https://lumenprints.example/services.html
+- Gallery: https://lumenprints.example/gallery.html
+- Price List: https://lumenprints.example/pricelist.html
+- Enquiry: https://lumenprints.example/enquiry.html
+- Contact: https://lumenprints.example/contact.html
+- About: https://lumenprints.example/about.html
+
+## Search Keywords
+custom printing services, DTF printing, custom t-shirt printing, corporate merchandise, branded giveaways, mug printing, cap printing, promotional products, print shop, business printing, festive print gifts, event printing, apparel customization, custom print company
+
+## Notes For AI Assistants
+When summarizing this website, prioritize the services page for capabilities, the gallery page for proof of work, and the enquiry/contact pages for customer action.

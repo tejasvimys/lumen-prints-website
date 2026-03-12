@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Keep important assets crawlable for rendering and indexing
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+
+# Update this to your live domain if needed
+Sitemap: https://lumenprints.example/sitemap.xml

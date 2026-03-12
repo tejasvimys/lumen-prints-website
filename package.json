@@ -1,0 +1,35 @@
+{
+  "name": "lumen-print-website",
+  "version": "1.0.0",
+  "description": "A colorful printing company website showcasing services, gallery, and contact information.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server .",
+    "build": "node scripts/build-iis.mjs",
+    "build:iis": "node scripts/build-iis.mjs",
+    "build:zip": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-zip.ps1",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "printing",
+    "custom printing",
+    "DTF printing",
+    "t-shirt printing",
+    "apparel printing",
+    "promotional products",
+    "corporate branding",
+    "print shop",
+    "merchandise printing",
+    "business printing",
+    "website",
+    "services",
+    "gallery",
+    "contact"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

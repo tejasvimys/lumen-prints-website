@@ -1,0 +1,390 @@
+/* Responsive styles - Apple-inspired */
+
+/* Large Desktop */
+@media (min-width: 1441px) {
+    .hero h1 {
+        font-size: 5rem;
+    }
+    
+    .hero p {
+        font-size: 1.75rem;
+    }
+}
+
+/* Tablet Landscape */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    
+    .hero {
+        padding: 4rem 2rem;
+    }
+
+    main {
+        padding: 0 1.5rem;
+    }
+
+    section {
+        padding: 4rem 2rem;
+    }
+    
+    section:nth-child(even) {
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.25rem;
+    }
+
+    .services-flip-grid {
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    }
+}
+
+/* Tablet Portrait */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .brand-tagline {
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero p {
+        font-size: 1.25rem;
+    }
+    
+    .hero {
+        padding: 3rem 1.5rem;
+        min-height: 60vh;
+    }
+
+    nav ul {
+        gap: 1.5rem;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+        font-size: 0.875rem;
+    }
+
+    section {
+        padding: 3rem 1.5rem;
+    }
+    
+    section:nth-child(even) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .service {
+        padding: 2rem 1.5rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .gallery img {
+        height: 250px;
+    }
+
+    .contact-form {
+        padding: 2rem;
+    }
+
+    .service-group-title {
+        margin-top: 2.25rem;
+        font-size: 1.35rem;
+    }
+
+    .services-flip-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.9rem;
+    }
+
+    .flip-card {
+        min-height: 200px;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        padding: 1rem;
+    }
+
+    .pricelist-hero {
+        min-height: 45vh;
+    }
+
+    .price-sheet-frame {
+        max-width: 680px;
+        padding: 0.75rem;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .contact-layout section,
+    .contact-layout section:nth-child(odd),
+    .contact-layout section:nth-child(even) {
+        padding: 1.6rem 1.25rem;
+    }
+
+    .google-form-embed {
+        min-height: 980px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    header {
+        padding: 0.75rem 0;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .logo-container {
+        margin-bottom: 0.75rem;
+    }
+
+    .brand-tagline {
+        margin-bottom: 0.75rem;
+        font-size: 0.72rem;
+        letter-spacing: 0.1em;
+    }
+
+    header h1 {
+        font-size: 1.125rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .hero {
+        padding: 2.5rem 1rem;
+        min-height: 50vh;
+    }
+    
+    .hero h1 {
+        font-size: 2.25rem;
+    }
+    
+    .hero p {
+        font-size: 1.125rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+        display: block;
+        text-align: center;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    section {
+        padding: 2.5rem 1rem;
+    }
+    
+    section:nth-child(even) {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .service {
+        padding: 2rem 1.25rem;
+        margin: 1.5rem 0;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .gallery img {
+        height: 250px;
+    }
+
+    .contact-form {
+        padding: 2rem 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 0.875rem 1rem;
+        font-size: 1rem;
+    }
+
+    .contact-form button {
+        padding: 0.875rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .service-group-title {
+        font-size: 1.25rem;
+        margin-top: 1.8rem;
+    }
+
+    .services-flip-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .flip-card {
+        aspect-ratio: auto;
+        min-height: auto;
+    }
+
+    .flip-card-inner {
+        transform: none !important;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: relative;
+        height: auto;
+        transform: none;
+        margin-bottom: 0.7rem;
+    }
+
+    .flip-card-back {
+        margin-top: -0.2rem;
+    }
+
+    .pricelist-hero {
+        min-height: 40vh;
+    }
+
+    .price-sheet-frame {
+        padding: 0.5rem;
+        border-radius: 16px;
+    }
+
+    .price-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-btn {
+        width: 100%;
+        max-width: 290px;
+        text-align: center;
+    }
+
+    .form-embed-shell {
+        padding: 0.5rem;
+        border-radius: 14px;
+    }
+
+    .google-form-embed {
+        min-height: 900px;
+        border-radius: 10px;
+    }
+
+    section ul li {
+        font-size: 1rem;
+        padding: 0.875rem 0;
+        padding-left: 2rem;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+        margin-top: 4rem;
+    }
+}
+
+/* Very Small Devices */
+@media (max-width: 360px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    
+    section ul li {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .service {
+        padding: 1.5rem 1rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem 1rem;
+    }
+}
