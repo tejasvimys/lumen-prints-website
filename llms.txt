@@ -14,13 +14,17 @@ Lumen Prints is a custom printing company providing high-quality print productio
 - Posters, flyers, brochures, and stickers
 
 ## Key Pages
-- Home: https://lumenprints.example/index.html
-- Services: https://lumenprints.example/services.html
-- Gallery: https://lumenprints.example/gallery.html
-- Price List: https://lumenprints.example/pricelist.html
-- Enquiry: https://lumenprints.example/enquiry.html
-- Contact: https://lumenprints.example/contact.html
-- About: https://lumenprints.example/about.html
+- Home: https://lumenprints.net/index.html
+- Services: https://lumenprints.net/services.html
+- Gallery: https://lumenprints.net/gallery.html
+- Price List: https://lumenprints.net/pricelist.html
+- Enquiry: https://lumenprints.net/enquiry.html
+- Contact: https://lumenprints.net/contact.html
+- About: https://lumenprints.net/about.html
+
+## Canonical Domain
+- Primary: https://lumenprints.net/
+- Alias (301 redirect to primary): https://lumenprint.net/
 
 ## Search Keywords
 custom printing services, DTF printing, custom t-shirt printing, corporate merchandise, branded giveaways, mug printing, cap printing, promotional products, print shop, business printing, festive print gifts, event printing, apparel customization, custom print company

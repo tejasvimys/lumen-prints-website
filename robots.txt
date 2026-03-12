@@ -6,5 +6,5 @@ Allow: /assets/
 Allow: /css/
 Allow: /js/
 
-# Update this to your live domain if needed
-Sitemap: https://lumenprints.example/sitemap.xml
+# Canonical domain sitemap
+Sitemap: https://lumenprints.net/sitemap.xml
